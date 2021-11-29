@@ -12,12 +12,6 @@ function Project() {
     <div className="project component__space" id="Portfolio">
       <div className="heading">
         <h1 className="heading">My Latest Project</h1>
-        <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
-        </p>
-        <p className="heading p__color">
-          but the majority have suffered alteration.
-        </p>
       </div>
        <div className="container">
            <div className="row">
@@ -31,9 +25,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h4 className="project__text">Tour Project</h4>
+                     <a href="https://tourism-related-website-5077b.web.app/" className="project__btn">View Project</a>
                      </div>
                  </div>
              </div>
@@ -48,9 +41,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h4 className="project__text">Animal Hospital</h4>
+                     <a href="https://healthcare-related-websi-fba2c.web.app/" className="project__btn">View Project</a>
                      </div>
                  </div>
              </div>
@@ -65,9 +57,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h4 className="project__text">Cycle Store</h4>
+                     <a href="https://ride-bull.web.app/" className="project__btn">View Project</a>
                      </div>
                  </div>
              </div>
