@@ -1,6 +1,6 @@
 import React from "react";
 import "./Blogs.css";
-import Blog1 from '../../images/website1.png';
+// import Blog1 from '../../images/website1.png';
 
 function Blogs() {
   return (
@@ -19,9 +19,9 @@ function Blogs() {
               <div className="col__3">
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
+                         {/* <div className="project__img__box">
                              <img src={Blog1} alt="" className="project__img" />
-                         </div>
+                         </div> */}
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
@@ -35,9 +35,9 @@ function Blogs() {
               <div className="col__3">
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
+                         {/* <div className="project__img__box">
                              <img src={Blog1} alt="" className="project__img" />
-                         </div>
+                         </div> */}
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
@@ -51,9 +51,9 @@ function Blogs() {
               <div className="col__3">
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
+                         {/* <div className="project__img__box">
                              <img src={Blog1} alt="" className="project__img" />
-                         </div>
+                         </div> */}
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">

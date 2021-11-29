@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "../../images/bg.png";
+import aboutImg from "../../images/istockphoto-1145626155-612x612.png";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -20,12 +20,7 @@ function About() {
               <p className="about__text p__color">
               I’m Nazmul Hossain Passionate at web development. I’m working minimum of 8-10 hours every day, I love to do this it’s my life everything.
               My goal is to satisfy clients, try to understand what they want for there website, help them from beginning to end the project and give support for every problem.
-              </p>
-              <p className="about__text p__color">
               If need I communicate by video or audio conversations to understand the problems and project requirements. After completing website and projects I give instructions, How they can manage, edit, update, add page and post on the website by themselves.
-              </p>
-              <p className="about__text p__color">
-              if needed I send video tutorials. But I can easily do work according to my expertise. I have no experience at all but I will prove myself to you by giving my best.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="#">
