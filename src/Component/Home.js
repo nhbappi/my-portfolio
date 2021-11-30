@@ -27,7 +27,7 @@ const Home = () => {
               <a href="#About">
                 <li className="nav__items mx__15">About</li>
               </a>
-              <a href="#Services">
+              <a href="#Service">
                 <li className="nav__items mx__15">Services</li>
               </a>
               <a href="#Portfolio">
@@ -54,7 +54,7 @@ const Home = () => {
                 </a>
             </div>
             <div>
-                <img src={photo} alt="" />
+                <img src={photo} width="100%" alt="" />
             </div>
           </div>
         </div>

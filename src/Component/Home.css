@@ -74,7 +74,7 @@ li.sideNavbar{
      justify-content: space-between;
  }
  .navigation.pxy__30 {
-        display: none;
+        display: block;
     }
 h2.white.pz__10 {
     font-size: 50px!important;

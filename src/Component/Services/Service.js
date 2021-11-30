@@ -2,7 +2,7 @@ import React from 'react';
 import './Service.css';
 const Service = () => {
     return (
-        <div className="service component__space">
+        <div id="Service" className="service component__space">
             <div className="heading">
                 <h1 className="heading">My Awesome Services</h1>
                 <p className="heading p__color">------What I Provide------</p>
