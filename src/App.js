@@ -10,6 +10,7 @@ import Footer from './Component/Footer/Footer';
 import Skills from './Component/Skills/Skills';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ViewProject from './Component/ViewProject/ViewProject';
+import NavBar from './Component/NavBar/NavBar';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Router>
                 <Switch>
                     <Route exact path="/">
+                      <NavBar></NavBar>
                         <Home></Home>
                         <About></About>
                         <Service></Service>
