@@ -1,16 +1,13 @@
 
 import React from "react";
 import "./Projects.css";
-// import Project1 from '../../images/web.app (1) - Copy.jpg';
-// import Project2 from '../../images/web.app (2).jpg';
-// import Project3 from '../../images/web.appp.jpg';
 import { Link } from "react-router-dom";
 
 
 
 function Projects() {
   return (
-    <div className="project component__space" id="Portfolio">
+    <div className="project component__space" id="Projects">
       <div className="heading">
         <h1 className="heading">My Latest Project</h1>
       </div>
@@ -43,7 +40,7 @@ function Projects() {
                      </div>
                      <div className="project__meta absolute">
                      <h4 className="project__text">Animal Hospital</h4>
-                     <a href="https://healthcare-related-websi-fba2c.web.app/" className="project__btn">View Project</a>
+                     <Link to="projectDetails2"  className="project__btn">View Project</Link>
                      </div>
                  </div>
              </div>
@@ -59,7 +56,7 @@ function Projects() {
                      </div>
                      <div className="project__meta absolute">
                      <h4 className="project__text">Cycle Store</h4>
-                     <a href="https://ride-bull.web.app/" className="project__btn">View Project</a>
+                     <Link to="projectDetails3"  className="project__btn">View Project</Link>
                      </div>
                  </div>
              </div>

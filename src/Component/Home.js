@@ -7,7 +7,7 @@ const Home = () => {
 
    
   return (
-    <div className="home" id="Home">
+    <div className="home mt-5" id="Home">
       <div className="home__bg">
         <div className="container">
           <div className="home__content d__flex">

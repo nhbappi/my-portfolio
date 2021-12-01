@@ -11,6 +11,8 @@ import Skills from './Component/Skills/Skills';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ViewProject from './Component/ViewProject/ViewProject';
 import NavBar from './Component/NavBar/NavBar';
+import ViewProject2 from './Component/ViewProject2/ViewProject2';
+import ViewProject3 from './Component/ViewProject3/ViewProject3';
 
 function App() {
   return (
@@ -30,6 +32,12 @@ function App() {
             </Route>
             <Route path="/projectDetails">
               <ViewProject></ViewProject>
+            </Route>
+            <Route path="/projectDetails2">
+              <ViewProject2></ViewProject2>
+            </Route>
+            <Route path="/projectDetails3">
+              <ViewProject3></ViewProject3>
             </Route>
 
 

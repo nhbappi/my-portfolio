@@ -7,7 +7,7 @@ const Contact = () => {
     const sendEmail=(e) =>{
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_doukpym', e.target, 'user_5CqkiHXtLrYyoUQBxXa3n')
+        emailjs.sendForm('gmail', 'template_wwy95ag', e.target, 'user_5CqkiHXtLrYyoUQBxXa3n')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
