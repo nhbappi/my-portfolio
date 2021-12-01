@@ -196,8 +196,8 @@ html,body{
   background: #ff0000;
 }
 .wrapper .button .icon i{
-  font-size: 15px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 30px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon i{
@@ -206,9 +206,11 @@ html,body{
 .wrapper .button span{
   font-size: 20px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 30px;
   margin-left: 10px;
   transition: all 0.3s ease-out;
+  display: inline-block;
+  
 }
 .wrapper .button:nth-child(1) span{
   color: #4267B2;

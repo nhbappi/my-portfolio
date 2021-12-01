@@ -9,13 +9,13 @@ function About() {
     });
   return (
     <div className="about component__space" id="About">
-      <div className="container">
+      <div className="">
         <div className="row">
           <div className="col__2">
             <img src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2">
-            <h1 className="about__heading">About Me</h1>
+            <h1 className="about__heading mt-4">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
               I’m Nazmul Hossain Passionate at web development. I’m working minimum of 8-10 hours every day, I love to do this it’s my life everything.

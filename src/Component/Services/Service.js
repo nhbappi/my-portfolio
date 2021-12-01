@@ -4,7 +4,22 @@ const Service = () => {
     return (
         <div id="Service" className="service component__space">
             <div className="heading">
-                <h1 className="heading">My Awesome Services</h1>
+                <h1 className="heading">
+                <div class="waviy">
+                    <span className="--i:1">M</span>
+                    <span className="--i:2">y</span>
+                    &nbsp;
+                    <span className="--i:3">S</span>
+                    <span className="--i:4">e</span>
+                    <span className="--i:5">r</span>
+                    <span className="--i:6">v</span>
+                    <span className="--i:7">i</span>
+                    <span className="--i:8">c</span>
+                    <span className="--i:6">e</span>
+                    <span className="--i:7">s</span>
+                    <span className="--i:8">s</span>
+                </div>
+                </h1>
                 <p className="heading p__color">------What I Provide------</p>
             </div>
             <div className="container">

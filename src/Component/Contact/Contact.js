@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com'
 import './Contact.css';
-import contactImg from'./../../images/bg.png';
+import contactImg from'./../../images/pic2.png';
 
 const Contact = () => {
     const sendEmail=(e) =>{
@@ -20,6 +20,10 @@ const Contact = () => {
         <div className=" contact component__space" id="Contact">
             <div className="row">
                 <div className="col__2">
+                    <img src={contactImg} alt="" className="contact__img" />
+                </div>
+
+                <div className="col__2">
                     <div className="contact__box ms-5">
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
@@ -36,9 +40,6 @@ const Contact = () => {
                         </div>
                         </form>
                     </div>
-                </div>
-                <div className="col__2">
-                    <img src={contactImg} alt="" className="contact__img" />
                 </div>
             </div>
         </div>

@@ -88,7 +88,7 @@ button.view__more:hover{
     border: 2px solid #f9004d;
     color: #f9004d!important;
 }
-/* RESPONSIVE */
+
 @media only screen and (max-width: 1024px){
 h5.project__text {
     font-weight: 400;

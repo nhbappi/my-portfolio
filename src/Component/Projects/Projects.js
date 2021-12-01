@@ -1,14 +1,14 @@
 
 import React from "react";
 import "./Projects.css";
-import Project1 from '../../images/web.app (1) - Copy.jpg';
-import Project2 from '../../images/web.app (2).jpg';
-import Project3 from '../../images/web.appp.jpg';
+// import Project1 from '../../images/web.app (1) - Copy.jpg';
+// import Project2 from '../../images/web.app (2).jpg';
+// import Project3 from '../../images/web.appp.jpg';
 import { Link } from "react-router-dom";
 
 
 
-function Project() {
+function Projects() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
@@ -21,7 +21,7 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project1} alt="" className="project__img" />
+                             <img src={'https://lh3.googleusercontent.com/proxy/xij68ip_yxP7mu-DvQBun6qHXfGPHpMUQsJqsFHq99HS-g1L2nCqd8ulFD0V7GgESgxiNYdG4YV84L0TFQf3iCJI1LnnYhFcQeql-fB3AWSoOdfrKv5TS-DmppgYzgVCV84QAUY-r8dZKzM'} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
@@ -37,7 +37,7 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project2} alt="" className="project__img" />
+                             <img src={'https://www.prestigeanimalhospital.com/sites/default/files/Prestige-Animal-Hospital-Veterinarian-Fontana-Near-Me.jpg'} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
@@ -53,7 +53,7 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project3} alt="" className="project__img" />
+                             <img src={'https://images.immediate.co.uk/production/volatile/sites/21/2019/03/new_bike_excuses_1-1469098104384-1krhac6hn3g7m-2d55b3b.jpg?quality=45&resize=768,574'} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
@@ -74,4 +74,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Projects;

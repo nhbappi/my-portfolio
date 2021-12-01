@@ -134,7 +134,7 @@ const Home = () => {
          </div>
       </div>
               <a href="https://drive.google.com/uc?export=download&id=1HK7m_WhKYESx2nnxYso7yX421HuZ06aW">
-                <button className="about btn pointer me-5 mb-5">Download Cv</button>
+<button className="about btn pointer ms-0 mt-3">Download Cv</button>
                 </a>
             </div>
             <div>

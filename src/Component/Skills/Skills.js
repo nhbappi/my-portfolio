@@ -21,7 +21,17 @@ const Skills = () => {
 
            ✔ Work in your time zone<br/>
 
+           ✔ The ability to explain technical matters clearly <br/>
+
+           ✔ A keen interest in technology<br/>
+
+           ✔ Strong communication skills<br/>
+
+           ✔ Constantly leaning and staying update <br/>
+
+           ✔ Handle all kind off serious problem sincerely <br/>
            ✔ Provide Extra Features.
+          
            </p>
       </div>
       <div className="">
