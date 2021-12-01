@@ -14,27 +14,13 @@ function Projects() {
        <div className="container">
            <div className="row">
 
-             <div className="col__3">
+
+
+           <div className="col__3">
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={'https://www.prestigeanimalhospital.com/sites/default/files/Prestige-Animal-Hospital-Veterinarian-Fontana-Near-Me.jpg'} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                     <div className="project__meta absolute">
-                     <h4 className="project__text">Animal Hospital</h4>
-                     <Link to="projectDetails2"  className="project__btn">View Project</Link>
-                     </div>
-                 </div>
-             </div>
-
-
-             <div className="col__3">
-                 <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={'https://www.airsage.com/blog/content/images/size/w2000/2019/09/beach-blue-coastline-1268855.jpg'} alt="" className="project__img" />
+                             <img src={'https://tubularinsights.com/wp-content/uploads/2014/08/travel-videos-youtube.jpg'} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
@@ -60,6 +46,24 @@ function Projects() {
                      </div>
                  </div>
              </div>
+
+             <div className="col__3">
+                 <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={'https://www.prestigeanimalhospital.com/sites/default/files/Prestige-Animal-Hospital-Veterinarian-Fontana-Near-Me.jpg'} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                     <div className="project__meta absolute">
+                     <h4 className="project__text">Animal Hospital</h4>
+                     <Link to="projectDetails2"  className="project__btn">View Project</Link>
+                     </div>
+                 </div>
+             </div>
+
+
+            
              
               <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
              <button className="view__more pointer btn">View more</button>
