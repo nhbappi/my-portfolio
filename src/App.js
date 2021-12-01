@@ -8,18 +8,31 @@ import Blogs from './Component/Blog/Blogs';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Skills from './Component/Skills/Skills';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ViewProject from './Component/ViewProject/ViewProject';
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      <About></About>
-      <Service></Service>
-      <Projects></Projects>
-      <Skills></Skills>
-      <Blogs></Blogs>
-      <Contact></Contact>
-      <Footer></Footer>
+    <Router>
+                <Switch>
+                    <Route exact path="/">
+                        <Home></Home>
+                        <About></About>
+                        <Service></Service>
+                        <Projects></Projects>
+                        <Skills></Skills>
+                        <Blogs></Blogs>
+                        <Contact></Contact>
+                        <Footer></Footer>
+            </Route>
+            <Route path="/projectDetails">
+              <ViewProject></ViewProject>
+            </Route>
+
+
+                </Switch>
+            </Router>
     </div>
   );
 }

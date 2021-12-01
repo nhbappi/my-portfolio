@@ -69,6 +69,7 @@ a.project__btn {
 a.project__btn:hover{
     background-color: #f9004d;
     border: 2px solid #f9004d;
+    color: #fff;
 }
 button.btn {
     padding: 15px 20px;

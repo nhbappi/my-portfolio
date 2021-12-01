@@ -4,6 +4,7 @@ import "./Projects.css";
 import Project1 from '../../images/web.app (1) - Copy.jpg';
 import Project2 from '../../images/web.app (2).jpg';
 import Project3 from '../../images/web.appp.jpg';
+import { Link } from "react-router-dom";
 
 
 
@@ -26,7 +27,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h4 className="project__text">Tour Project</h4>
-                     <a href="https://tourism-related-website-5077b.web.app/" className="project__btn">View Project</a>
+                     <Link to="projectDetails"  className="project__btn">View Project</Link>
                      </div>
                  </div>
              </div>
