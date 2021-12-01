@@ -18,7 +18,7 @@ function Projects() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={'https://lh3.googleusercontent.com/proxy/xij68ip_yxP7mu-DvQBun6qHXfGPHpMUQsJqsFHq99HS-g1L2nCqd8ulFD0V7GgESgxiNYdG4YV84L0TFQf3iCJI1LnnYhFcQeql-fB3AWSoOdfrKv5TS-DmppgYzgVCV84QAUY-r8dZKzM'} alt="" className="project__img" />
+                             <img src={'https://www.airsage.com/blog/content/images/size/w2000/2019/09/beach-blue-coastline-1268855.jpg'} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
