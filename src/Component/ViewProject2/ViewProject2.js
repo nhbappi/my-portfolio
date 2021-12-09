@@ -1,13 +1,13 @@
 import React from 'react';
-import photo from '../../images/web.app (3)jhj.jpg';
-import photo1 from '../../images/web.app (4).jpg'
-import photo2 from '../../images/web.app (5).jpg'
-import photo3 from '../../images/web.app (3)hgh.jpg'
+import photo from '../../images/web.app 0.jpg';
+import photo1 from '../../images/web.app 00.jpg'
+import photo2 from '../../images/web.app 000.jpg'
+import photo3 from '../../images/web.app 0.jpg'
 
 const ViewProject2 = () => {
     return (
         <div>
-            <h1 className="about__heading text-center mt-3">VetRexx</h1>
+            <h1 className="about__heading text-center mt-3">Health Care</h1>
 
             <div>
             <img src={photo} className="img-fluid" alt="..."/>
@@ -15,11 +15,11 @@ const ViewProject2 = () => {
 
             <div className="d-flex justify-content-center mt-5">
                 <div className="me-2">
-                <a href="https://healthcare-related-websi-fba2c.web.app/" className="project__btn">LiveSite</a>
+                <a href="https://healthcare-9ed42.web.app/" className="project__btn">LiveSite</a>
                 
                 </div>
             <div>
-            <a href="https://github.com/nhbappi/health-care-website" className="project__btn">ClientSide</a>
+            <a href="https://github.com/nhbappi/healthCare" className="project__btn">ClientSide</a>
             </div>
             
             

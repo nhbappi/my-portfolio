@@ -56,7 +56,7 @@ function Projects() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h4 className="project__text">Animal Hospital</h4>
+                     <h4 className="project__text">Health Care</h4>
                      <Link to="projectDetails2"  className="project__btn">View Project</Link>
                      </div>
                  </div>
