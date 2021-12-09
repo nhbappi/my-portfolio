@@ -29,7 +29,7 @@ const ViewProject2 = () => {
            </div>
            <div>
                <p className="container text-light text-inline bg-dark">
-               "Vetrexx is open in western Palm Beach County, Florida, U.S.A. A Board Certified veterinarian supervises all of the services at the Animal HealthCare Center. The Center has been awarded the highest level of certification by the American Animal Hospital Association. We offer a wide range of services to satisfy the complete needs of your pet. Our services range from State-of-the-Art Medical and Surgical care to Wellness Programs, Behavioral Counseling, Hospitalization, Boarding, Grooming, and Prescription Heartworm and Flea Medication.<br/>
+               "Health Care is open in western Palm Beach County, Florida, U.S.A. A Board Certified hospital supervises all of the services at the HealthCare Center. The Center has been awarded the highest level of certification by the American Hospital Association. We offer a wide range of services to satisfy the complete needs of your people. Our services range from State-of-the-Art Medical and Surgical care to Wellness Programs, Behavioral Counseling, Hospitalization, Boarding, Grooming, and Prescription Heartworm and Flea Medication.<br/>
 
                It is our pleasure to provide you with this web site. The focus of this site is to provide you with information on a variety of health care topics. Whether you want medical information on you pet’s condition or you want to know where you can find informative or entertaining Television programming relating to pets, you will find it on this site.<br/>
 
